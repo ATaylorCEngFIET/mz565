@@ -1,0 +1,13 @@
+set_property IOSTANDARD LVCMOS33 [get_ports clk_in1_0]
+set_property PACKAGE_PIN M9 [get_ports clk_in1_0]
+
+set_property IOSTANDARD LVCMOS33 [get_ports IIC_0_scl_io]
+set_property IOSTANDARD LVCMOS33 [get_ports IIC_0_sda_io]
+set_property PULLTYPE PULLUP [get_ports IIC_0_scl_io]
+set_property PULLTYPE PULLUP [get_ports IIC_0_sda_io]
+set_property IOSTANDARD LVCMOS33 [get_ports UART_0_rxd]
+set_property IOSTANDARD LVCMOS33 [get_ports UART_0_txd]
+set_property PACKAGE_PIN N15 [get_ports UART_0_rxd]
+set_property PACKAGE_PIN P14 [get_ports UART_0_txd]
+set_property PACKAGE_PIN P15 [get_ports IIC_0_scl_io]
+set_property PACKAGE_PIN R13 [get_ports IIC_0_sda_io]
